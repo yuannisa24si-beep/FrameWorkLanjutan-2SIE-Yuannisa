@@ -1,8 +1,8 @@
-import'./custom.css';
-import BiodataDiri from './Pertemuan-2/BiodataDiri.jsx'
+import './custom.css';
+import BiodataDiri from './BiodataDiri.jsx';
 
 function App() {
-  return <BiodataDiri />;
+    return <BiodataDiri />;
 }
 
 export default App;
