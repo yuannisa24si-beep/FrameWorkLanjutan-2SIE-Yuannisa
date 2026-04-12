@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "nama": "Indonesia",
+    "ibuKota": "Jakarta",
+    "benua": "Asia",
+    "bahasa": "Indonesia",
+    "populasi": 277534122,
+    "gambar": "https://flagcdn.com/w320/id.png",
+    "detail": {
+      "matauang": "Rupiah (IDR)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik"
+    }
+  },
+  {
+    "id": 2,
+    "nama": "Jepang",
+    "ibuKota": "Tokyo",
+    "benua": "Asia",
+    "bahasa": "Jepang",
+    "populasi": 125700000,
+    "gambar": "https://flagcdn.com/w320/jp.png",
+    "detail": {
+      "matauang": "Yen (JPY)",
+      "kepadatan": "Tinggi",
+      "pemerintahan": "Monarki Konstitusional"
+    }
+  },
+  {
+    "id": 3,
+    "nama": "Amerika Serikat",
+    "ibuKota": "Washington D.C.",
+    "benua": "Amerika",
+    "bahasa": "Inggris",
+    "populasi": 331000000,
+    "gambar": "https://flagcdn.com/w320/us.png",
+    "detail": {
+      "matauang": "Dolar (USD)",
+      "kepadatan": "Rendah",
+      "pemerintahan": "Republik Federal"
+    }
+  },
+  {
+    "id": 4,
+    "nama": "Brasil",
+    "ibuKota": "Brasília",
+    "benua": "Amerika",
+    "bahasa": "Portugis",
+    "populasi": 214300000,
+    "gambar": "https://flagcdn.com/w320/br.png",
+    "detail": {
+      "matauang": "Real (BRL)",
+      "kepadatan": "Rendah",
+      "pemerintahan": "Republik Federal"
+    }
+  },
+  {
+    "id": 5,
+    "nama": "Prancis",
+    "ibuKota": "Paris",
+    "benua": "Eropa",
+    "bahasa": "Prancis",
+    "populasi": 67390000,
+    "gambar": "https://flagcdn.com/w320/fr.png",
+    "detail": {
+      "matauang": "Euro (EUR)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik"
+    }
+  },
+  {
+    "id": 6,
+    "nama": "Jerman",
+    "ibuKota": "Berlin",
+    "benua": "Eropa",
+    "bahasa": "Jerman",
+    "populasi": 83200000,
+    "gambar": "https://flagcdn.com/w320/de.png",
+    "detail": {
+      "matauang": "Euro (EUR)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik Federal"
+    }
+  },
+  {
+    "id": 7,
+    "nama": "India",
+    "ibuKota": "New Delhi",
+    "benua": "Asia",
+    "bahasa": "Hindi",
+    "populasi": 1380004385,
+    "gambar": "https://flagcdn.com/w320/in.png",
+    "detail": {
+      "matauang": "Rupee (INR)",
+      "kepadatan": "Sangat Tinggi",
+      "pemerintahan": "Republik Federal"
+    }
+  },
+  {
+    "id": 8,
+    "nama": "China",
+    "ibuKota": "Beijing",
+    "benua": "Asia",
+    "bahasa": "Mandarin",
+    "populasi": 1411778724,
+    "gambar": "https://flagcdn.com/w320/cn.png",
+    "detail": {
+      "matauang": "Yuan (CNY)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik Rakyat"
+    }
+  },
+  {
+    "id": 9,
+    "nama": "Australia",
+    "ibuKota": "Canberra",
+    "benua": "Australia",
+    "bahasa": "Inggris",
+    "populasi": 25690000,
+    "gambar": "https://flagcdn.com/w320/au.png",
+    "detail": {
+      "matauang": "Dolar Australia (AUD)",
+      "kepadatan": "Sangat Rendah",
+      "pemerintahan": "Monarki Konstitusional"
+    }
+  },
+  {
+    "id": 10,
+    "nama": "Mesir",
+    "ibuKota": "Kairo",
+    "benua": "Afrika",
+    "bahasa": "Arab",
+    "populasi": 102334404,
+    "gambar": "https://flagcdn.com/w320/eg.png",
+    "detail": {
+      "matauang": "Pound Mesir (EGP)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik"
+    }
+  },
+  {
+    "id": 11,
+    "nama": "Nigeria",
+    "ibuKota": "Abuja",
+    "benua": "Afrika",
+    "bahasa": "Inggris",
+    "populasi": 206139589,
+    "gambar": "https://flagcdn.com/w320/ng.png",
+    "detail": {
+      "matauang": "Naira (NGN)",
+      "kepadatan": "Tinggi",
+      "pemerintahan": "Republik Federal"
+    }
+  },
+  {
+    "id": 12,
+    "nama": "Korea Selatan",
+    "ibuKota": "Seoul",
+    "benua": "Asia",
+    "bahasa": "Korea",
+    "populasi": 51780579,
+    "gambar": "https://flagcdn.com/w320/kr.png",
+    "detail": {
+      "matauang": "Won (KRW)",
+      "kepadatan": "Tinggi",
+      "pemerintahan": "Republik"
+    }
+  },
+  {
+    "id": 13,
+    "nama": "Meksiko",
+    "ibuKota": "Mexico City",
+    "benua": "Amerika",
+    "bahasa": "Spanyol",
+    "populasi": 128932753,
+    "gambar": "https://flagcdn.com/w320/mx.png",
+    "detail": {
+      "matauang": "Peso (MXN)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik Federal"
+    }
+  },
+  {
+    "id": 14,
+    "nama": "Italia",
+    "ibuKota": "Roma",
+    "benua": "Eropa",
+    "bahasa": "Italia",
+    "populasi": 60461826,
+    "gambar": "https://flagcdn.com/w320/it.png",
+    "detail": {
+      "matauang": "Euro (EUR)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik"
+    }
+  },
+  {
+    "id": 15,
+    "nama": "Kanada",
+    "ibuKota": "Ottawa",
+    "benua": "Amerika",
+    "bahasa": "Inggris",
+    "populasi": 38005238,
+    "gambar": "https://flagcdn.com/w320/ca.png",
+    "detail": {
+      "matauang": "Dolar Kanada (CAD)",
+      "kepadatan": "Sangat Rendah",
+      "pemerintahan": "Monarki Konstitusional"
+    }
+  },
+  {
+    "id": 16,
+    "nama": "Arab Saudi",
+    "ibuKota": "Riyadh",
+    "benua": "Asia",
+    "bahasa": "Arab",
+    "populasi": 34813871,
+    "gambar": "https://flagcdn.com/w320/sa.png",
+    "detail": {
+      "matauang": "Riyal (SAR)",
+      "kepadatan": "Rendah",
+      "pemerintahan": "Monarki Absolut"
+    }
+  },
+  {
+    "id": 17,
+    "nama": "Turki",
+    "ibuKota": "Ankara",
+    "benua": "Eropa",
+    "bahasa": "Turki",
+    "populasi": 84339067,
+    "gambar": "https://flagcdn.com/w320/tr.png",
+    "detail": {
+      "matauang": "Lira (TRY)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Republik"
+    }
+  },
+  {
+    "id": 18,
+    "nama": "Argentina",
+    "ibuKota": "Buenos Aires",
+    "benua": "Amerika",
+    "bahasa": "Spanyol",
+    "populasi": 45195774,
+    "gambar": "https://flagcdn.com/w320/ar.png",
+    "detail": {
+      "matauang": "Peso (ARS)",
+      "kepadatan": "Rendah",
+      "pemerintahan": "Republik Federal"
+    }
+  },
+  {
+    "id": 19,
+    "nama": "Malaysia",
+    "ibuKota": "Kuala Lumpur",
+    "benua": "Asia",
+    "bahasa": "Melayu",
+    "populasi": 32365999,
+    "gambar": "https://flagcdn.com/w320/my.png",
+    "detail": {
+      "matauang": "Ringgit (MYR)",
+      "kepadatan": "Sedang",
+      "pemerintahan": "Monarki Konstitusional"
+    }
+  },
+  {
+    "id": 20,
+    "nama": "Afrika Selatan",
+    "ibuKota": "Pretoria",
+    "benua": "Afrika",
+    "bahasa": "Zulu",
+    "populasi": 59308690,
+    "gambar": "https://flagcdn.com/w320/za.png",
+    "detail": {
+      "matauang": "Rand (ZAR)",
+      "kepadatan": "Rendah",
+      "pemerintahan": "Republik"
+    }
+  }
+]
