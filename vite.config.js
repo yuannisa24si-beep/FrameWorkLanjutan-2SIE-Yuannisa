@@ -5,7 +5,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  appType: 'mpa',
+  // appType: 'mpa',
   build: {
     rollupOptions: {
       input: {

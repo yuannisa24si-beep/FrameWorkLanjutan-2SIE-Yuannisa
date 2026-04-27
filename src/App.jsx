@@ -16,10 +16,11 @@ const NotFound = React.lazy(() => import("./pages/main/NotFound"));
 const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 const Login = React.lazy(() => import("./pages/auth/Login"));
+const Loading = React.lazy(() => import("./components/Loading"));
 
 export default function App() {
   return (
-    <Suspense fallback={<div className="flex h-screen items-center justify-center">Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Dashboard />} />
@@ -28,11 +29,9 @@ export default function App() {
           <Route path="/error-400" element={<Error400 />} />
           <Route path="/error-401" element={<Error401 />} />
           <Route path="/error-403" element={<Error403 />} />
-          {/* NotFound biasanya ditaruh di dalam layout utama atau luar, tergantung desain */}
           <Route path="*" element={<NotFound />} />
         </Route>
 
-        {/* Grup Layout Auth */}
         <Route element={<AuthLayout />}>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
