@@ -1,4 +1,4 @@
-import { MdDashboard, MdListAlt, MdPeople, MdAdd } from "react-icons/md";
+import { MdDashboard, MdListAlt, MdPeople, MdAdd, MdShoppingBag } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 export default function Sidebar() {
@@ -41,6 +41,13 @@ export default function Sidebar() {
                         <NavLink to="/customers" className={menuClass}>
                             <MdPeople className="mr-4 text-xl" />
                             <span>Customers</span>
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink to="/products" className={menuClass}>
+                            <MdShoppingBag className="mr-4 text-xl" />
+                            <span>Products</span>
                         </NavLink>
                     </li>
 
