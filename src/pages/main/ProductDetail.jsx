@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Card from "../../components/Card";
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -33,12 +34,14 @@ export default function ProductDetail() {
           alt={product.title}
           className="rounded-xl mb-4 w-full h-48 object-cover"
         />
+        <card>
         <h2 className="text-2xl font-bold mb-2">{product.title}</h2>
         <p className="text-gray-600 mb-1">Kategori: {product.category}</p>
         <p className="text-gray-600 mb-1">Brand: {product.brand}</p>
         <p className="text-gray-800 font-semibold text-emerald-700">
           Harga: Rp {(product.price * 1000).toLocaleString("id-ID")}
         </p>
+        </card>
       </div>
     </div>
   );
