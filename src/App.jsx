@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Error400 from "./pages/main/Error400";
 import Error401 from "./pages/main/Error401";
 import Error403 from "./pages/main/Error403";
+import FiturXyz from "./pages/main/FiturXyz";
 
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
@@ -20,6 +21,7 @@ const Loading = React.lazy(() => import("./components/Loading"));
 const Products = React.lazy(() => import("./pages/main/Products"));
 const ProductDetail = React.lazy(() => import("./pages/main/ProductDetail"));
 const Components = React.lazy(() => import("./pages/main/Components"));
+const FiturXyzPage = React.lazy(() => import("./pages/main/FiturXyz"));
 
 export default function App() {
   return (
@@ -36,6 +38,7 @@ export default function App() {
           <Route path="/error-403" element={<Error403 />} />
           <Route path="/components" element={<Components />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/fitur-xyz" element={<FiturXyzPage />} />
         </Route>
 
         <Route element={<AuthLayout />}>
