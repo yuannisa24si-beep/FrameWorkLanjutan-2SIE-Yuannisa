@@ -22,6 +22,7 @@ const Products = React.lazy(() => import("./pages/main/Products"));
 const ProductDetail = React.lazy(() => import("./pages/main/ProductDetail"));
 const Components = React.lazy(() => import("./pages/main/Components"));
 const FiturXyzPage = React.lazy(() => import("./pages/main/FiturXyz"));
+const Note = React.lazy(() => import("./pages/main/Note"));
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/components" element={<Components />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/fitur-xyz" element={<FiturXyzPage />} />
+          <Route path="/note" element={<Note />} />
         </Route>
 
         <Route element={<AuthLayout />}>
